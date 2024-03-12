@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="projects/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="always-container">
+
+        <!--Header-->
+        <header class="header-div">
+            <div class="header-menus">
+                <div class="home">
+                    <button id="homebtnID" class="button-home"><bold style="color: white;">K</bold>arl</button>
+                </div>
+                <div class="menus">
+                  <button id="aboutbtnID" class="about-button">About</button>
+                  <button id="experiencesbtnID" class="experiences-button">Experiences</button>
+                  <button id="contactbtnID" class="contact-button">Contact</button>
+                  <button id="helpbtnID" class="help-button">Help</button>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars fa-2x hamburger" id="toggleButton" onclick="toggleMenu()"></i>
+                </div>
+            </div>
+        </header>
+
+        <div class="navigation-menu-phone">
+            <div class="nav-buttons">
+                <button class="phone-about-button">About</button>
+                <button class="phone-experiences-button">Experiences</button>
+                <button class="phone-contact-button">Contact</button>
+                <button class="phone-help-button">Help</button>
+            </div>
+        </div>
+        
+        <!--Home div-->
+        <div class="home-contain">
+            <div class="introduction-div ">
+                <h1 class="introduction-text expand-first">
+                <small class="hello">Hello Welcome</small>, <br>I'm <u style="color: black">Karl Michael Ayod</u>,<br>
+                A <u style="color: black">College Student</u>.
+                </h1>
+                <p class="expand-second">
+                -I'm all about hardware. I love digging into tech, 
+                especially designing and tweaking computer systems.
+                </p>    
+                
+             </div>
+
+            <img class="profile-pic expand-third" src="projects/assets/images/me.png" type="image">
+        </div>
+
+        <div class="about-contain">
+                 
+            <div class="about-info-div">
+                <img class="about-picture expand-first" src="projects/assets/images/my-about-pic.jpg">
+
+                <h class="about-title expand-first"><b>About me</b></h>
+                <p class="about-info expand-second">
+                Hi, I'm Karl Michael Ayod!<br><br>
+
+                I've always been fascinated by how things work, especially computers. 
+                I love getting my hands on hardware, tweaking and optimizing systems 
+                to run like a charm. It's not just a job for me; it's a passion to find 
+                smarter solutions and make technology work better for everyone.<br><br>
+
+                When I'm not elbow-deep in hardware, I'm either exploring the latest tech trends, 
+                coding away on new projects, or enjoying the outdoors. I'm always on the lookout for 
+                new challenges and ways to push the boundaries of what's possible with technology.<br><br>
+
+                Let's chat and see how we can create something amazing together!
+                </p> 
+            </div>     
+        </div>
+
+        <div class="experiences-contain">
+
+            <div class="experiences-container">
+
+                <div class="exp-tle-div">
+                    <h class="title-exp expand-first">Experiences</h>
+                </div>
+
+                <div class="first-exp">
+                    <h class="titles-in-experiences">Assembling and DisAssembling</h>
+                    <img class="experiences-image" src="projects/assets/images/cpu.jpg">
+                </div>
+
+                <div class="second-exp">
+                    <h class="titles-in-experiences">Installing OS</h>
+                    <img class="experiences-image" src="projects/assets/images/os.png">
+                </div>
+                <div class="third-exp">
+                    <h class="titles-in-experiences">Remoting a PC</h>
+                    <img class="experiences-image" src="projects/assets/images/remoting.png">
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-contain">
+            <div class="contact-ttle-div fade-fourth-in-from-right">
+                <h class="contact-title menu-titles">Contact Me</h>
+            </div>
+              
+            <div class="contact-info-div">
+        
+                <div class="information-contact-div fade-first-in-from-above">
+                   <h9 class="contact-info">
+                    <b>EMAIL:</b><br>
+                    karlmichael.ayod@example.com<br><br>
+        
+                    <b>CONTACT NO.</b><br>
+                    +123 456 7890<br><br> 
+        
+                    <b>SOCIAL MEDIA:</b><br>
+                    <a href="https://www.twitter.com/karlmichaelayod" target="_blank">Twitter</a><br>
+                    <a href="https://www.facebook.com/karlmmk/" target="_blank">Facebook</a><br>
+                    <a href="https://www.instagram.com/ayod.official/?hl=en" target="_blank">Instagram</a><br><br>
+                   </h9>
+                </div>
+                  <div class="textfields-div fade-third-in-from-bottom" name="My-Portfolios-Clients" method="post" action="https://script.google.com/macros/s/AKfycbxpx4DpUYBRmEKJJhvxjQXJiIXWi1tYyBVqfvAHWbZULL7LSFzTVbMnJ8tLAjVYPGJcyQ/exec">
+                      <input class="name-textfield textfields" type="text" id="name" name="client-name" placeholder="Enter your name">
+                      <input class="email-textfield textfields" type="text" id="email" name="client-email" placeholder="Enter your email">
+                      <textarea class="textarea tarea-size" name="client-message" type="text" id="message" name="name" placeholder="Enter your message"></textarea>
+                      <button type="submit" value="Submit" id="submit" class="send-button">Send Request</button>
+                </div>
+            </div>   
+        </div>
+        
+        
+        <div class="help-contain">
+            
+            <div class="instructions-div">
+                <div class="help-title-div">
+                    <h class="help-title expand-first">Help</h>
+                </div>
+                
+                <p class="instruction-info expand-second">
+                    <b>How to Use This Website:</b><br><br>
+        
+                    1. <u class="expand-third">Home Section:</u><br>
+                    - Click on the "Home" button in the navigation bar to go to the Home section.<br>
+                    - The Home section provides a brief introduction to the user, highlighting the name and role of the individual (in this case, Karl Michael Ayod, a college student). It also includes a short description of Karl Michael's passion for hardware and technology.<br><br>
+        
+                    2. <u class="expand-third">About Section:</u><br>
+                    - Click on the "About" button in the navigation bar to navigate to the About section.<br>
+                    - The About section includes a picture of Karl Michael and a detailed description of his background, experiences, and interests.<br><br>
+        
+                    3. <u class="expand-third">Experiences Section:</u><br>
+                    - Click on the "Experiences" button in the navigation bar to navigate to the Experiences section.<br>
+                    - The Experiences section lists Karl Michael's hardware-related experiences, including assembling and disassembling computers, installing operating systems, and remote PC access, each with a brief description and accompanying images.<br><br>
+        
+                    4. <u class="expand-third">Contact Section:</u><br>
+                    - Click on the "Contact" button in the navigation bar to navigate to the Contact section.<br>
+                    - The Contact section includes contact information (email, phone number, and LinkedIn profile) for Karl Michael, as well as a form for users to send him a message.<br><br>
+        
+                    5. <u class="expand-third">Help Section:</u><br>
+                    - The Help section provides additional information and resources for using the website.<br><br>
+        
+                    <b class="expand-third">phone Navigation:</b><br>
+                    - The website includes a phone navigation menu accessible by clicking on the hamburger icon in the top right corner (represented by three horizontal lines).<br>
+                    - Clicking on the hamburger icon toggles the display of the phone navigation menu, which includes links to the same sections as the desktop navigation bar.<br><br>
+        
+                    We hope you enjoy exploring Karl Michael Ayod's portfolio website! If you have any questions or need further assistance, feel free to contact us.<br><br>
+                </p>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <script src="projects/assets/js/script.js"></script>
+</body>
+</html>
